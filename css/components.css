@@ -1,0 +1,82 @@
+.logo{
+    height: 5rem;
+    margin-left: 3rem;
+}
+
+.search{
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__input{
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: var(--colour-grey-light-2);
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    width: 90%;
+    transition: all 0.4s;
+    margin-right: -3rem;
+}
+
+.search__input:focus{
+    width: 100%;
+    outline: 1px solid var(--colour-primary);
+}
+
+.search__button{
+    border: none;
+    cursor: pointer;
+    color: var(--colour-grey-dark-3);
+}
+
+.search__button:active{
+    transform: translateY(2px);
+}
+
+/* USER NAV */
+
+.user-nav{
+    background-color: yellow;
+    height: 5rem;
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-nav__icon-box{
+    
+}
+
+.user-nav__icon{
+    color: var(--colour-grey-dark-3);
+}
+
+.user-nav__notification{
+    color: #fff;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: -2rem;
+}
+
+.user-nav__user-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-nav__profile{
+    height: 3rem;
+    width:  3rem;
+    border-radius: 50%;
+}
+
+.user-nav__user-name{
+
+}
